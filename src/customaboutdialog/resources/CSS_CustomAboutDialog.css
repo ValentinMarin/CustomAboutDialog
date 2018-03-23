@@ -23,3 +23,8 @@ and open the template in the editor.
 .s_lbl_app_title{
     -fx-text-fill: #f5f6fa;
 }
+
+.s_anc_references_container{
+    -fx-background-color: black;
+    -fx-background-radius: 10 10 10 10;
+}
