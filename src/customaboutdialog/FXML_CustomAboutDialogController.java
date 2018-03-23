@@ -5,10 +5,12 @@
  */
 package customaboutdialog;
 
+
 import java.net.URL;
 import java.util.ResourceBundle;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
+import javafx.scene.control.Label;
 import javafx.scene.image.ImageView;
 import javafx.scene.input.MouseEvent;
 
@@ -18,6 +20,9 @@ import javafx.scene.input.MouseEvent;
  */
 public class FXML_CustomAboutDialogController implements Initializable {
 
+    @FXML
+    private Label lbl_about, lbl_app_title;
+    
     @FXML
     private ImageView btn_exit;
     

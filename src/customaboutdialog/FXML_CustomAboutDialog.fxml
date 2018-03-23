@@ -1,18 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.control.Label?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
 
 <AnchorPane id="AnchorPane" prefHeight="300.0" prefWidth="400.0" styleClass="background" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="customaboutdialog.FXML_CustomAboutDialogController">
    <children>
       <AnchorPane prefHeight="200.0" prefWidth="200.0" styleClass="main_container" AnchorPane.bottomAnchor="30.0" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="30.0">
          <children>
-            <ImageView fx:id="btn_exit" fitHeight="16.0" fitWidth="16.0" layoutX="302.0" layoutY="14.0" onMouseClicked="#btn_exit_clicked" pickOnBounds="true" preserveRatio="true" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="5.0">
+            <ImageView fx:id="btn_exit" fitHeight="16.0" fitWidth="16.0" layoutX="319.0" layoutY="10.0" onMouseClicked="#btn_exit_clicked" pickOnBounds="true" preserveRatio="true" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="10.0">
                <image>
                   <Image url="@images/exit_ico.png" />
                </image>
             </ImageView>
+            <Label fx:id="lbl_about" layoutX="6.0" layoutY="4.0" styleClass="s_lbl_about" text="About" AnchorPane.leftAnchor="5.0" AnchorPane.topAnchor="5.0">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="lbl_app_title" layoutX="51.0" layoutY="5.0" styleClass="s_lbl_app_title" text="Efficient Work Application" AnchorPane.leftAnchor="51.0" AnchorPane.topAnchor="5.0">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
          </children>
       </AnchorPane>
    </children>
