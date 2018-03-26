@@ -22,6 +22,9 @@ import javafx.scene.shape.Rectangle;
  */
 public class FXML_CustomAboutDialogController implements Initializable {
 
+    Boolean refContainerSelected = false;
+    Boolean infoContainerSelected = false;
+            
     @FXML
     private Label lbl_about, lbl_app_title;
     
@@ -49,13 +52,20 @@ public class FXML_CustomAboutDialogController implements Initializable {
     
     @FXML 
     private void btn_references_exited(MouseEvent event) {
-        decoration_btn_references.setVisible(false);
+        if(refContainerSelected == false)
+            decoration_btn_references.setVisible(false);
     }
     
     @FXML
     private void btn_references_clicked(MouseEvent event) {
         anc_references_container.setVisible(true);
         anc_info_container.setVisible(false);
+        
+        decoration_btn_references.setVisible(true);
+        decoration_btn_info.setVisible(false);
+        
+        refContainerSelected = true;
+        infoContainerSelected = false;
     }
     
     @FXML 
@@ -65,13 +75,18 @@ public class FXML_CustomAboutDialogController implements Initializable {
     
     @FXML 
     private void btn_info_exited(MouseEvent event) {
-        decoration_btn_info.setVisible(false);
+        if(infoContainerSelected == false)
+            decoration_btn_info.setVisible(false);
     }
     
     @FXML
     private void btn_info_clicked(MouseEvent event) {
         anc_references_container.setVisible(false);
         anc_info_container.setVisible(true);
+        decoration_btn_references.setVisible(false);
+        decoration_btn_info.setVisible(true);
+        refContainerSelected = false;
+        infoContainerSelected = true;
     }
     
     @Override
