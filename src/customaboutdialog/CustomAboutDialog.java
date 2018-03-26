@@ -42,7 +42,7 @@ public class CustomAboutDialog extends Application {
         String css = this.getClass().getResource("resources/CSS_CustomAboutDialog.css").toExternalForm(); 
         scene.getStylesheets().add(css);
         
-        stage.initStyle(StageStyle.UNDECORATED);
+        stage.initStyle(StageStyle.TRANSPARENT);
         stage.setScene(scene);
         stage.show();
     }

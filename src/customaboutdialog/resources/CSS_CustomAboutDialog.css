@@ -8,23 +8,124 @@ and open the template in the editor.
     Author     : marin
 */
 
-.background{
-    -fx-background-color: #ff5e57;
+.s_background {
+    -fx-background-color: #2f3640;
+    -fx-background-radius: 30 30 30 30;
+}
+.main_container {
+    -fx-background-color: #2f3640;
+}
+/* + About Dialog title style */
+.s_lbl_about {
+    -fx-text-fill: #c8d6e5;
+}
+
+.s_lbl_app_title {
+    -fx-text-fill: #e84118;
+}
+/* - About Dialog title style */
+
+/* + Application licence style */
+.s_lbl_licence {
+    -fx-text-fill: #c8d6e5;
+}
+
+.s_lbl_version {
+    -fx-text-fill: #c8d6e5;
+}
+
+.s_lbl_version_nr {
+    -fx-text-fill: #c8d6e5;
+}
+/* - Application licence style */
+
+/* + Info container style */
+.s_anc_info_container {
+    -fx-background-color: #2f3640;
     -fx-background-radius: 10 10 10 10;
 }
-.main_container{
-    -fx-background-color: #ff5e57;
+
+.s_lbl_author {
+    -fx-text-fill: #c8d6e5;
 }
 
-.s_lbl_about{
-    -fx-text-fill: #353b48;
+.s_lbl_author_name {
+    -fx-text-fill: #c8d6e5;
 }
 
-.s_lbl_app_title{
-    -fx-text-fill: #f5f6fa;
+.s_lbl_contact {
+    -fx-text-fill: #c8d6e5;
 }
 
-.s_anc_references_container{
-    -fx-background-color: black;
+.s_lbl_contact_data {
+    -fx-text-fill: #c8d6e5;
+}
+/* - Info container style */
+
+/* + Reference container style */
+.s_anc_references_container {
+    -fx-background-color: #2f3640;
     -fx-background-radius: 10 10 10 10;
 }
+
+.s_lbl_ref_top {
+    -fx-text-fill: #c8d6e5;
+}
+
+.s_hlnk_ref_top {
+    -fx-text-fill: #c8d6e5;
+}
+
+.s_lbl_ref_middle {
+    -fx-text-fill: #c8d6e5;
+}
+
+.s_hlnk_ref_middle {
+    -fx-text-fill: #c8d6e5;
+}
+
+.s_lbl_ref_bottom {
+    -fx-text-fill: #c8d6e5;
+}
+
+.s_hlnk_ref_bottom {
+    -fx-text-fill: #c8d6e5;
+}
+/* - Reference container style */
+
+/* + Buttons style */
+.s_btn_buy_cafe {
+    -fx-border-color: #c8d6e5;
+    -fx-border-width: 1px;
+    -fx-border-radius: 3 3 3 3;
+}
+
+.s_btn_buy_cafe_text {
+    -fx-text-fill: #c8d6e5;
+}
+
+.s_btn_updates {
+    -fx-border-color: #c8d6e5;
+    -fx-border-width: 1px;
+    -fx-border-radius: 3 3 3 3;
+}
+
+.s_btn_updates_text {
+    -fx-text-fill: #c8d6e5;
+}
+
+.s_decoration_btn_info {
+    -fx-fill: #e84118;
+}
+.s_btn_info {
+    -fx-text-fill: #c8d6e5;
+}
+
+.s_decoration_btn_references {
+    -fx-fill: #e84118;
+}
+
+.s_btn_references {
+    -fx-text-fill: #c8d6e5;
+}
+/* - Buttons style */

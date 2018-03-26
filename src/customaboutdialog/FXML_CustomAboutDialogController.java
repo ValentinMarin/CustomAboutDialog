@@ -13,6 +13,8 @@ import javafx.fxml.Initializable;
 import javafx.scene.control.Label;
 import javafx.scene.image.ImageView;
 import javafx.scene.input.MouseEvent;
+import javafx.scene.layout.AnchorPane;
+import javafx.scene.shape.Rectangle;
 
 /**
  *
@@ -27,8 +29,49 @@ public class FXML_CustomAboutDialogController implements Initializable {
     private ImageView btn_exit;
     
     @FXML
+    private AnchorPane btn_buy_Cafe;
+    
+    @FXML
     private void btn_exit_clicked(MouseEvent event) {
         System.exit(0);
+    }
+    
+    @FXML 
+    private Rectangle decoration_btn_references, decoration_btn_info;
+    
+    @FXML
+    private AnchorPane anc_info_container, anc_references_container;
+    
+    @FXML 
+    private void btn_references_entered(MouseEvent event) {
+        decoration_btn_references.setVisible(true);
+    }
+    
+    @FXML 
+    private void btn_references_exited(MouseEvent event) {
+        decoration_btn_references.setVisible(false);
+    }
+    
+    @FXML
+    private void btn_references_clicked(MouseEvent event) {
+        anc_references_container.setVisible(true);
+        anc_info_container.setVisible(false);
+    }
+    
+    @FXML 
+    private void btn_info_entered(MouseEvent event) {
+        decoration_btn_info.setVisible(true);
+    }
+    
+    @FXML 
+    private void btn_info_exited(MouseEvent event) {
+        decoration_btn_info.setVisible(false);
+    }
+    
+    @FXML
+    private void btn_info_clicked(MouseEvent event) {
+        anc_references_container.setVisible(false);
+        anc_info_container.setVisible(true);
     }
     
     @Override
