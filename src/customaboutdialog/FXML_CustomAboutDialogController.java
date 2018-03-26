@@ -89,6 +89,21 @@ public class FXML_CustomAboutDialogController implements Initializable {
         infoContainerSelected = true;
     }
     
+    @FXML 
+    private void btn_updates_entered(MouseEvent event) {
+
+    }
+    
+    @FXML 
+    private void btn_updates_exited(MouseEvent event) {
+
+    }
+    
+    @FXML
+    private void btn_updates_clicked(MouseEvent event) {
+
+    }
+    
     @Override
     public void initialize(URL url, ResourceBundle rb) {
         // TODO

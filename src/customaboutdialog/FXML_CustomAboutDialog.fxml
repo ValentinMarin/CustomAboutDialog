@@ -65,7 +65,7 @@
                   <Label layoutX="46.0" layoutY="11.0" prefHeight="17.0" prefWidth="83.0" styleClass="s_btn_buy_cafe_text" text="Buy me a cafe!" />
                </children>
             </AnchorPane>
-            <AnchorPane fx:id="btn_updates" layoutX="305.0" layoutY="34.0" prefHeight="30.0" prefWidth="130.0" styleClass="s_btn_updates" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="50.0">
+            <AnchorPane fx:id="btn_updates" layoutX="305.0" layoutY="34.0" onMouseClicked="#btn_updates_clicked" onMouseEntered="#btn_updates_entered" onMouseExited="#btn_updates_exited" prefHeight="30.0" prefWidth="130.0" styleClass="s_btn_updates" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="50.0">
                <children>
                   <ImageView fitHeight="16.0" fitWidth="16.0" layoutX="6.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
                      <image>
