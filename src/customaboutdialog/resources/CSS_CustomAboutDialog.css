@@ -97,7 +97,13 @@ and open the template in the editor.
 .s_btn_buy_cafe {
     -fx-border-color: #c8d6e5;
     -fx-border-width: 1px;
-    -fx-border-radius: 3 3 3 3;
+    -fx-border-radius: 6 6 6 6;
+}
+
+.s_btn_buy_cafe:hover {
+    -fx-border-color: #e84118;
+    -fx-border-width: 1px;
+    -fx-border-radius: 6 6 6 6;
 }
 
 .s_btn_buy_cafe_text {
@@ -107,7 +113,13 @@ and open the template in the editor.
 .s_btn_updates {
     -fx-border-color: #c8d6e5;
     -fx-border-width: 1px;
-    -fx-border-radius: 3 3 3 3;
+    -fx-border-radius: 6 6 6 6;
+}
+
+.s_btn_updates:hover {
+    -fx-border-color: #e84118;
+    -fx-border-width: 1px;
+    -fx-border-radius: 6 6 6 6;
 }
 
 .s_btn_updates_text {

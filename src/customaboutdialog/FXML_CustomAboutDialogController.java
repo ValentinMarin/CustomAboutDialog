@@ -32,7 +32,7 @@ public class FXML_CustomAboutDialogController implements Initializable {
     private ImageView btn_exit;
     
     @FXML
-    private AnchorPane btn_buy_Cafe;
+    private AnchorPane btn_updates, btn_buy_cafe;
     
     @FXML
     private void btn_exit_clicked(MouseEvent event) {
@@ -89,19 +89,14 @@ public class FXML_CustomAboutDialogController implements Initializable {
         infoContainerSelected = true;
     }
     
-    @FXML 
-    private void btn_updates_entered(MouseEvent event) {
-
-    }
-    
-    @FXML 
-    private void btn_updates_exited(MouseEvent event) {
-
+    @FXML
+    private void btn_updates_clicked(MouseEvent event) {
+        
     }
     
     @FXML
-    private void btn_updates_clicked(MouseEvent event) {
-
+    private void btn_buy_cafe_clicked(MouseEvent event) {
+        
     }
     
     @Override
