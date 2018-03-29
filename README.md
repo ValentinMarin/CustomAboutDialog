@@ -8,7 +8,7 @@
 ![image](https://user-images.githubusercontent.com/16362429/38081456-ca1d17b0-334c-11e8-9a66-ca795a4599e9.png)
 
 
-### Buy me coffee!
+## Buy me coffee!
 If you like the content of this repository please don't forget that a developer is always in need of coffee. If you can help me, I will appreciate a lot.
 
 > BTC Address: 1KrfmjJXVe72cPansL6oro3NeuMD3KEK9Z
