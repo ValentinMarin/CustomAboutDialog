@@ -1,2 +1,2 @@
 # Custom About Dialog
-![image](https://user-images.githubusercontent.com/16362429/37930492-90810e60-314b-11e8-94fa-26782e557fc8.png)
+![image](https://user-images.githubusercontent.com/16362429/38081456-ca1d17b0-334c-11e8-9a66-ca795a4599e9.png)
