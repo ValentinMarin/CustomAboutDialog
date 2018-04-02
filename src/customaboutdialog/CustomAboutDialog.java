@@ -39,7 +39,7 @@ public class CustomAboutDialog extends Application {
         
         Scene scene = new Scene(root);
         scene.setFill(Color.TRANSPARENT);
-        String css = this.getClass().getResource("resources/CSS_CustomAboutDialog.css").toExternalForm(); 
+        String css = this.getClass().getResource("resources/CSS_CustomAboutDialog_WhiteAndBlue.css").toExternalForm(); 
         scene.getStylesheets().add(css);
         
         stage.initStyle(StageStyle.TRANSPARENT);
