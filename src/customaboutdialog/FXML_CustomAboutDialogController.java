@@ -10,6 +10,7 @@ import java.net.URL;
 import java.util.ResourceBundle;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
+import javafx.scene.Node;
 import javafx.scene.control.Label;
 import javafx.scene.image.ImageView;
 import javafx.scene.input.MouseEvent;
@@ -35,8 +36,23 @@ public class FXML_CustomAboutDialogController implements Initializable {
     private AnchorPane btn_updates, btn_buy_coffee;
     
     @FXML
+    private Label lbl_licence;
+    
+    @FXML
+    private Label lbl_version;
+    
+    @FXML
+    private Label lbl_version_nr;
+    
+    @FXML
+    private Label btn_info;
+    
+    @FXML
+    private Label btn_references;
+    
+    @FXML
     private void btn_exit_clicked(MouseEvent event) {
-        System.exit(0);
+        ((Node)(event.getSource())).getScene().getWindow().hide(); 
     }
     
     @FXML 
