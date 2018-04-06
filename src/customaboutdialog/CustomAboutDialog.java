@@ -20,8 +20,8 @@ import javafx.stage.StageStyle;
  */
 public class CustomAboutDialog extends Application {
     
-    double xOffset = 0;
-    double yOffset = 0;
+    double xOffset = 0; /* Define x Offset */
+    double yOffset = 0; /* Define y Offset */
     
     @Override
     public void start(Stage stage) throws Exception {
