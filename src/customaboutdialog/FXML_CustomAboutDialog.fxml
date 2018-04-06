@@ -48,7 +48,7 @@
                   <Label layoutX="5.0" layoutY="51.0" styleClass="s_lbl_ref_middle" text="Icons:" AnchorPane.leftAnchor="5.0" />
                   <Label layoutX="5.0" layoutY="76.0" styleClass="s_lbl_ref_bottom" text="Colors:" AnchorPane.leftAnchor="5.0" />
                   <Hyperlink disable="true" layoutX="59.0" layoutY="22.0" styleClass="s_hlnk_ref_top" text="https://github.com/ValentinMarin" />
-                  <Hyperlink disable="true" layoutX="61.0" layoutY="48.0" styleClass="s_hlnk_ref_middle" text="https://www.iconfinder.com/" />
+                  <Hyperlink disable="true" layoutX="61.0" layoutY="48.0" styleClass="s_hlnk_ref_middle" text="https://www.iconfinder.com" />
                   <Hyperlink disable="true" layoutX="61.0" layoutY="73.0" styleClass="s_hlnk_ref_bottom" text="https://www.flatuicolors.com" />
                </children></AnchorPane>
             <AnchorPane fx:id="btn_buy_coffee" layoutX="302.0" layoutY="243.0" onMouseClicked="#btn_buy_coffee_clicked" prefHeight="40.0" prefWidth="142.0" styleClass="s_btn_buy_coffee" AnchorPane.rightAnchor="5.0">
