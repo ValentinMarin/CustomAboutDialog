@@ -27,6 +27,7 @@ public class CustomAboutDialog extends Application {
     public void start(Stage stage) throws Exception {
         Parent root = FXMLLoader.load(getClass().getResource("FXML_CustomAboutDialog.fxml"));
         
+        /* + Move window on screen */
         root.setOnMousePressed((MouseEvent event) -> {
             xOffset = stage.getX() - event.getScreenX();
             yOffset = stage.getY() - event.getScreenY();
@@ -36,6 +37,7 @@ public class CustomAboutDialog extends Application {
             stage.setX(event.getScreenX() + xOffset);
             stage.setY(event.getScreenY() + yOffset);
         });
+        /* + Move window on screen */
         
         Scene scene = new Scene(root);
         scene.setFill(Color.TRANSPARENT);
