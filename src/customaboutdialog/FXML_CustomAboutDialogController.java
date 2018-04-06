@@ -117,7 +117,7 @@ public class FXML_CustomAboutDialogController implements Initializable {
     
     @Override
     public void initialize(URL url, ResourceBundle rb) {
-        // TODO
+        btn_references_clicked(null);
     }    
     
 }
